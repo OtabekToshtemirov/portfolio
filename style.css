@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Noto+Sans:wght@100;400;600;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size:25px;
+}
+
+
+ header {
+     background:url("./images/krasivie-foni-18.jpg") no-repeat center center;
+     background-size: cover;
+     height: 100vh;
+     width: 100%;
+     top: 0;
+     left: 0;
+ }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.nav{
+    background:linear-gradient(rgba(200, 0,0,0.7),rgba(0,0,0,0.7));
+}
+.header__logo {
+    width: 100px;
+    border-radius: 50%
+}
+.header__logo img {
+    width: 100%;
+    border-radius: 5px;
+}
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__menu-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__menu-item {
+    list-style: none;
+    margin: 0 15px;
+}
+.header__menu-item a:hover {
+    border-bottom: 2px solid #fff
+}
+.header__menu-item a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.resume {
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.resume a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+.resume:hover {
+    background: #dccece;
+    color: #fff;
+}
+.resume:hover a {
+    border-bottom: 2px solid #000;
+}
+.aim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.aim__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;        }
+.aim__title {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+.aim__title--name {
+    color: #ff0000;
+    font-size: 50px;
+}
+.aim__text {
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+}
+.aim__image {
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 20px 100px;
+}
+.aim__image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.about {
+    font-size: 20px;
+    background:url(" ./images/img_10.jpg")no-repeat center center;
+    padding: 50px 0;
+}
+.about__title {
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
+.about__title--name {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+.education {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+}
+.education__title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px 0;
+/*    background glass effect*/
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+}
+
+
+/*Works------------------------------------------*/
+.works{
+    background:url("./images/krasivie-foni-18.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 50px 0;
+}
+.works__title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.works__title--name{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+.works__content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.works__content--item{
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.works__content--item--image{
+    border: 1px solid #f5f5f5;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.works__content--item--image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.works__content--item--text{
+    margin-top: 20px;
+}
+.works__content--item--text--name{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+}
+
+/*Skills------------------------------------------*/
+.skills{
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+.skills__title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.skills__title--name{
+    font-size: 50px;
+    font-weight: 700;
+    color: #000;
+}
+.skills__content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.skills__content--item{
+    width: 30%;
+    margin-bottom: 30px;
+    min-width: 300px;
+}
+.skills__content--item--image{
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Contact------------------------------------------*/
+.contact{
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+.contact__title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact__title--name{
+    font-size: 50px;
+    font-weight: 700;
+    color: #000;
+}
+.contact__content{
+    display: flex;
+    flex-direction: column;
+}
+.contact__content--item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.contact__content--item input{
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact__content--item textarea{
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact__content--item button{
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.contact__content--item button:hover{
+    background-color: #fff;
+    color: #000;
+}
+.contact {
+    align-items: center;
+    justify-content: center;
+}
+.contacts {
+    display: flex;
+}
+.contacts__title--name{
+    margin: 10px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #000;
+}
+.footer{
+    background:linear-gradient(rgba(200, 0,0,0.7),rgba(0,0,0,0.7));
+    color: #fff;
+}
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+
+
