@@ -35,9 +35,11 @@ $(document).ready(function() {
                 // Done Functions
                 th.trigger("reset");
             }, 1000);
-        });
-        return false;
-    });
+
+        }
+        );
+        }
+    );
 
 });
 
