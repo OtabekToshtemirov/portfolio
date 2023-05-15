@@ -21,4 +21,14 @@ burger.addEventListener('click', () => {
     headerMenu.classList.toggle('active');
 });
 
+//on click nav link close nav`
+const navLink = document.querySelectorAll('.header__menu-list li a');
+navLink.forEach((link) => {
+    link.addEventListener('click', () => {
+        menu.classList.remove('active');
+    });
+
+}
+);
+
 
