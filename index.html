@@ -30,10 +30,10 @@
 <!--                    <div class="header__menu">-->
                         <ul class="header__menu-list">
                             <li class="header__menu-item"><a href="#">Home</a></li>
-                            <li class="header__menu-item"><a href="#">About</a></li>
-                            <li class="header__menu-item"><a href="#">Works</a></li>
-                            <li class="header__menu-item"><a href="#">Skills</a></li>
-                            <li class="header__menu-item"><a href="#">Contact</a></li>
+                            <li class="header__menu-item"><a href="#about">About</a></li>
+                            <li class="header__menu-item"><a href="#works">Works</a></li>
+                            <li class="header__menu-item"><a href="#skills">Skills</a></li>
+                            <li class="header__menu-item"><a href="#contact">Contact</a></li>
                         </ul>
 <!--                    </div>-->
 
@@ -58,7 +58,7 @@
     </header>
 <!--    Header end-->
 <!--    About me-->
-    <div class="about">
+    <div class="about" id="about">
         <div class="container">
                 <div class="about__title">
                     <h1 class="about__title--name">About me</h1>
@@ -104,7 +104,7 @@
     </div>
 <!--    About me end-->
 <!--    Works-->
-    <div class="works">
+    <div class="works" id="works">
         <div class="container">
             <div class="works__title">
                 <h1 class="works__title--name">Works</h1>
@@ -169,7 +169,7 @@
     </div>
 <!--    Works end-->
 <!--    Skills-->
-    <div class="skills">
+    <div class="skills" id="skills">
         <div class="container">
             <div class="skills__title">
                 <h1 class="skills__title--name">Skills</h1>
@@ -252,57 +252,14 @@
     </div>
 <!--    Skills end-->
 <!--    Contact-->
-    <div class="contact">
+    <div class="contact" id="contact">
         <div class="container">
             <div class="contact__title">
                 <h1 class="contact__title--name">Contact me</h1>
             </div>
-            <form action="">
-                <div class="contact__content">
-<!--                    Hidden required Fields-->
-                    <input type="hidden" name="project_name" value="Portfolio">
-                    <input type="hidden" name="admin_email" value="shoraqorgon@gmail.com">
-                    <input type="hidden" name="form_subject" value="Message from Portfolio">
-<!--                    Hidden required Fields end-->
-                    <div class="contact__content--item">
-                        <div class="contact__content--item--input">
-                            <input type="text" placeholder="Name"  >
-                        </div>
-                    </div>
-                    <div class="contact__content--item">
-                        <div class="contact__content--item--input">
-                            <input type="text" placeholder="Email" class="_req">
-                        </div>
-                    </div>
-                    <div class="contact__content--item">
-                        <div class="contact__content--item--input">
-                            <input type="text" placeholder="Subject">
-                        </div>
-                    </div>
-                    <div class="contact__content--item">
-                        <div class="contact__content--item--input">
-                            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                        </div>
-                    </div>
-                    <div class="contact__content--item">
-                        <div class="contact__content--item--input">
-                            <button type="submit">Send</button>
-                        </div>
-                    </div>
-                </div>
-            </form>
-
-
-        </div>
-    </div>
-<!--    Contact end-->
-<!--    Footer-->
-    <div class="footer">
-        <div class="container">
             <div class="contacts">
                 <h1 class="contacts__title--name">
                     <a href="https://t.me/OtabekToshtemirov">Telegram</a>
-
                 </h1>
                 <h1 class="contacts__title--name">
                     <a href="https://www.instagram.com/otabek0428/">Instagram</a>
@@ -323,6 +280,14 @@
                     <a href="mailto:shoraqorgon@gmail.com">Shoraqorgon@gmail.com</a>
                 </h1>
             </div>
+
+
+        </div>
+    </div>
+<!--    Contact end-->
+<!--    Footer-->
+    <div class="footer">
+        <div class="container">
             <div class="footer__content">
                 <div class="footer__content--item">
                     <div class="footer__content--item--text">
@@ -342,14 +307,8 @@
             </div>
         </div>
     </div>
-
 </div>
 
-
 <script src="./java.js"></script>
-<!--connect jquery-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-
 </body>
 </html>
